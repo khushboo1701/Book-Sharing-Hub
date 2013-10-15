@@ -1,0 +1,332 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WebApplication1
+</name>
+</assembly>
+<members>
+<member name="F:WebApplication1.Signup.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.TextBox4">
+	<summary>
+TextBox4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.TextBox5">
+	<summary>
+TextBox5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.TextBox6">
+	<summary>
+TextBox6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Signup.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.Panel2">
+	<summary>
+Panel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.TextBox2">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.Panel3">
+	<summary>
+Panel3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.feedback.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.feedback.TextBox4">
+	<summary>
+TextBox4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.feedback.TextBox5">
+	<summary>
+TextBox5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.feedback.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Login.RegisterHyperLink">
+	<summary>
+RegisterHyperLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Login.LoginUser">
+	<summary>
+LoginUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebApplication1.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:WebApplication1.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:WebApplication1.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WebApplication1._Default.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1._Default.DropDownList1">
+	<summary>
+DropDownList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1._Default.ImageButton1">
+	<summary>
+ImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.ChangePassword.ChangeUserPassword">
+	<summary>
+ChangeUserPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Site.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Site.Menu1">
+	<summary>
+Menu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Site.Panel1">
+	<summary>
+Panel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Site.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Site.Menu2">
+	<summary>
+Menu2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

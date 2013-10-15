@@ -1,0 +1,148 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="WebApplication1.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 120%;
+            height: 580px;
+            margin-right: 0px;
+        }
+        .style4
+        {
+            height: 200px;
+            width: 868px;
+        }
+        .style2
+        {
+            width: 100%;
+        }
+        .style3
+        {
+            width: 171px;
+            height: 244px;
+        }
+        .style5
+        {
+            text-align: center;
+        }
+        .style7
+        {
+            width: 868px;
+            height: 252px;
+        }
+        .style8
+        {
+            height: 12px;
+            width: 868px;
+        }
+        .style9
+        {
+            height: 244px;
+        }
+        .style11
+        {
+            width: 77px;
+        }
+        .style12
+        {
+            width: 868px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" style="background-color: #000000">
+    &nbsp;
+    <table align ="center" class="style1">
+    <tr> <td>
+    <table align="center" class="style1">
+        <tr>
+            <td class="style4">
+&nbsp;<img alt="book" class="style7" src="pictures/IMG-20131014-WA0006.jpg" /></td>
+        </tr>
+        <tr>
+            <td class="style8">
+                <asp:Menu ID="Menu1" runat="server" BackColor="Black" Font-Names="Georgia" 
+                    Font-Size="Small" ForeColor="White" Height="24px" Orientation="Horizontal" 
+                    style="margin-top: 0px; margin-right: 560px; text-align: center;" 
+                    Width="493px">
+                    <DynamicItemTemplate>
+                        <%# Eval("Text") %>
+                    </DynamicItemTemplate>
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="HOME | " 
+                            ToolTip="Go to the home page" Value="HOME"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Subjects.aspx" Text="SUBJECTS | " Value="New Item">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Course.aspx" Text="QUESTION PAPERS | " 
+                            Value="PAPERS"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Login.aspx" Text="LOGIN | " Value="Login">
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </td>
+        </tr>
+        <tr>
+            <td class="style12">
+                <table align="center" class="style2" style="border-color: #FFFFFF">
+                    <tr>
+                        <td bgcolor="Silver" class="style3" style="background-color: #C0C0C0">
+                            <asp:Panel ID="Panel1" runat="server" BackColor="#CCCCFF" Font-Bold="True" 
+                                ForeColor="White" style="background-color: #000000" Width="170px">
+                                <div class="style5">
+                                    <span class="style5">
+                                    <br />
+                                    BOOK<br /> SHARING
+                                    <br />
+                                    HUB<br /> <br />
+                                    “Good friends, good books, and a sleepy conscience: this is the ideal life.”
+                                    <br />
+                                    ― <a href="http://www.goodreads.com/author/show/1244.Mark_Twain">Mark Twain</a><br />
+                                    <br />
+                                    <br />
+                                    </span>
+                                    <br />
+                                </div>
+                            </asp:Panel>
+                        </td>
+                        <td class="style9" valign="top">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                <p>
+                                    <br />
+                                </p>
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+                <asp:Menu ID="Menu2" runat="server" BackColor="Black" Font-Overline="False" 
+                    Font-Size="X-Small" ForeColor="White" Height="20px" Orientation="Horizontal" 
+                    style="text-align: center; margin-left: 113px" Width="740px">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/tnc.aspx" Text="TERMS &amp; CONDITIONS | " 
+                            Value="TERMS &amp; CONDITIONS"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/abc.aspx" Text="CONTACT US | " 
+                            Value="CONTACT US"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/abc.aspx" Text="BOOKS GALLERY | " 
+                            Value="PHOTO GALLERY"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/feedback.aspx" Text="FEEDBACK | " Value="FEEDBACK">
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </td>
+        </tr>
+    </table>
+    </td>
+    <td class="style11">
+    CATEGORIES
+    </td>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>
